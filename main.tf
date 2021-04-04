@@ -1,7 +1,7 @@
-resource "azurerm_resource_group" "resource_gp" {
-    name = "Skylines-Execution-Demo"
+  resource "azurerm_resource_group" "resource_gp" {
+    name = "Skylines-Demo-5"
     location = "eastus"
     tags = {
       "Owner" = "Alkan Mustafa"
     }
-}
+  }
